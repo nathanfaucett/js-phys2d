@@ -1,0 +1,45 @@
+{
+  "name": "phys2d",
+  "version": "0.0.1",
+  "description": "2d physics engine for node and the browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/phys2d.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "phys2d",
+    "phys2d.js"
+  ],
+  "scripts": {
+    "test": "comn -f examples/test/src/index.js -o examples/test/index.js"
+  },
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "comn": "git://github.com/nathanfaucett/comn",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": "^0.2.7",
+    "mocha": "^2.1.0",
+    "odin": "git://github.com/nathanfaucett/odin",
+    "quat": "git://github.com/nathanfaucett/quat",
+    "vec3": "git://github.com/nathanfaucett/vec3"
+  },
+  "dependencies": {
+    "aabb2": "git://github.com/nathanfaucett/aabb2.git",
+    "circle_to_circle": "git://github.com/nathanfaucett/circle_to_circle.git",
+    "contact2": "git://github.com/nathanfaucett/contact2.git",
+    "create": "git://github.com/nathanfaucett/create.git",
+    "create_pool": "git://github.com/nathanfaucett/create_pool.git",
+    "enums": "git://github.com/nathanfaucett/enums",
+    "event_emitter": "git://github.com/nathanfaucett/event_emitter",
+    "index_of": "git://github.com/nathanfaucett/index_of",
+    "mat32": "git://github.com/nathanfaucett/mat32",
+    "mathf": "git://github.com/nathanfaucett/mathf",
+    "odin-phys2d-rigidbody": "git://github.com/nathanfaucett/odin-phys2d-rigidbody",
+    "time": "git://github.com/nathanfaucett/time",
+    "vec2": "git://github.com/nathanfaucett/vec2"
+  }
+}
